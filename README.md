@@ -11,7 +11,7 @@ Use SparkSQL to determine key metrics about home sales databy using Spark to cre
 ### Analyzing the Data
 
 1. **What is the average price for a four-bedroom house sold for each year, rounded off to two decimal places?<br>**
- <img src="Tables/1. Avg_4BD.png" />
+   <img src="Tables/1. Avg_4BD.png" />
 
 2. **What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms, rounded off to two decimal places?**<br>
    <img src="Tables/2. Avg_3BD_3BR.png" />
@@ -24,7 +24,7 @@ Use SparkSQL to determine key metrics about home sales databy using Spark to cre
 
 ### Further Analysis
 **Run the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.**<br>
-   <img src="Tables/5. Runtime_cached.png" />
+      <img src="Tables/5. Runtime_cached.png" />
 
 ## Query Times
 The cached data took 1.2640 seconds while the parquet table partitioned by date_built took 0.8990SECONDS. 
